@@ -1,0 +1,5 @@
+cmd_line.o: cmd_line.c
+ask_timesrv.o: ask_timesrv.c ask_timesrv.h
+main.o: main.c ask_timesrv.h
+serveraction.o: serveraction.c ask_timesrv.h
+make_socket.o: make_socket.c ask_timesrv.h
